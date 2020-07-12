@@ -1,83 +1,107 @@
-const inquirer = require("inquirer");
-const fs = require("fs");
-const util = require("util");
+const inquirer = require('inquirer')
+const fs = require('fs')
+const util = require('util')
 
-const writeFileAsync = util.promisify(fs.writeFile);
+const writeFileAsync = util.promisify(fs.writeFile)
 
-function promptUser() {
+function promptUser () {
   return inquirer.prompt([
     {
-      type: "input",
-      name: "name",
-      message: "What is your name?"
+      type: 'input',
+      name: 'projectName',
+      message: 'What is your project name ?'
     },
     {
-      type: "input",
-      name: "location",
-      message: "Where are you from?"
+      type: 'input',
+      name: 'description',
+      message: 'Project description?'
     },
     {
-      type: "input",
-      name: "hobby",
-      message: "What is your favorite hobby?"
+      type: 'input',
+      name: 'video',
+      message: 'location of screenshot or video ?'
     },
     {
-      type: "input",
-      name: "food",
-      message: "What is your favorite food?"
+      type: 'input',
+      name: 'gettingStarted',
+      message: 'Enter instructions on how to deploy your site?'
     },
     {
-      type: "input",
-      name: "github",
-      message: "Enter your GitHub Username"
+      type: 'input',
+      name: 'commanLine',
+      message: 'Enter command to start project'
     },
     {
-      type: "input",
-      name: "linkedin",
-      message: "Enter your LinkedIn URL."
+      type: 'input',
+      name: 'installation',
+      message: 'Instructions to deploy site'
+    },
+    {
+      type: 'input',
+      name: 'webpage',
+      message: 'Enter your webpage address.'
+    },
+    {
+      type: 'input',
+      name: 'linkedin',
+      message: 'Enter your LinkedIn URL.'
+    },
+    {
+      type: 'input',
+      name: 'twitter',
+      message: 'Enter your twitter handle.'
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email ?'
     }
-  ]);
+  ])
 }
 
-function generateHTML(answers) {
+function generateHTML (answers) {
+  projectname = answers.projectName
+  console.log(answers.projectName)
   return `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Hi! My name is ${answers.name}</h1>
-    <p class="lead">I am from ${answers.location}.</p>
-    <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
-    <ul class="list-group">
-      <li class="list-group-item">My GitHub username is ${answers.github}</li>
-      <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
-    </ul>
-  </div>
-</div>
-</body>
-</html>`;
+  # ${answers.projectName}
+  ---
+
+  ## Description
+  ---
+  > ${answers.description}
+
+  ![screenshot] (screenshot.png)
+
+
+  ## Getting Started
+  ---
+  > ${answers.gettingStarted}
+
+
+  ## Installation
+  ---
+  > ${answers.installation}
+
+  To launch the program, write the following in the terminal window:
+  ${answers.commanLine}
+  
+  
+  `
 }
 
-async function init() {
-  console.log("hi")
+async function init () {
+  console.log('hi')
   try {
-    const answers = await promptUser();
+    const answers = await promptUser()
 
-    const html = generateHTML(answers);
+    const html = generateHTML(answers)
 
-    await writeFileAsync("index.html", html);
+    await writeFileAsync('README.md', html)
 
-    console.log("Successfully wrote to index.html");
-  } catch(err) {
-    console.log(err);
+    console.log('Successfully wrote to README.md')
+  } catch (err) {
+    console.log(err)
   }
 }
 
-init();
+init()
