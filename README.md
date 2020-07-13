@@ -24,7 +24,12 @@
 
 ---
 
-> npm install node index.js
+```
+ npm install node index.js
+```
 
 To launch the program, write the following in the terminal window:
+
+```
 node index.js
+```
