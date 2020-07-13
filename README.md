@@ -5,8 +5,9 @@
   ## Description
   ---
   > This is an automated professional readme.md generator
-
-  ![screenshot] (/screenshot.png)
+  
+  ![Alt text](/screenshot.png?raw=true "Screen Shot")
+  
 
 
   ## Getting Started
