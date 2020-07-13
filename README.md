@@ -2,7 +2,7 @@
 
 ---
 
-# the great project i made
+# Professional README.md generator
 
 ---
 
