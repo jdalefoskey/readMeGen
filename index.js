@@ -86,11 +86,13 @@ function generateHTML(answers) {
 
   ### Installation
   ---
-  > ${answers.installation}
-
+  ```
+  ${answers.installation}
+  ```
   To launch the program, write the following in the terminal window:
+  ```
   ${answers.commanLine}
-  
+  ```
   
   `;
 }
