@@ -6,7 +6,7 @@
   ---
   > This is an automated professional readme.md generator
 
-  ![screenshot] (screenshot.png)
+  ![screenshot] (./screenshot.png)
 
 
   ## Getting Started
