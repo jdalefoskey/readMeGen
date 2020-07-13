@@ -10,7 +10,7 @@
 
 ---
 
-> here is where i tell you about it
+> This is an automated professional readme.md generator using javascript
 
 ![Alt text](/screenshot.png?raw=true "Screen Shot")
 
@@ -18,18 +18,26 @@
 
 ---
 
-> instructions
+There are a few requirements, terminal window, node.js installed, the interface is simple and user friendly, so you won't have any problems using.
 
 ### Installation
 
 ---
 
+Using command line, type the following from the project directory and hit enter, this will install dependancys automatically for you
+
 ```
- npm install node index.js
+ npm install -A
 ```
+
+#### Afterwards
 
 To launch the program, write the following in the terminal window:
 
 ```
 node index.js
 ```
+
+### Contributing
+
+Feel free to contact me with input, improvements, and suggestions at www.johnnydalefoskey.org
