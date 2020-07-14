@@ -33,11 +33,7 @@ function promptUser() {
       name: "commanLine", // Link to stored answer
       message: "Enter command to start project",
     },
-    {
-      type: "input",
-      name: "installation", // Link to stored answer
-      message: "Instructions to deploy site",
-    },
+
     {
       type: "input",
       name: "webpage", // Link to stored answer
@@ -80,7 +76,7 @@ function generateHTML(answers) {
   
 
 
-  ### Getting Started
+  ### Usage & getting Started
   ---
   > ${answers.gettingStarted}
 
@@ -90,9 +86,23 @@ function generateHTML(answers) {
   
   ${answers.installation}
   
-  To launch the program, write the following in the terminal window:
-  
+  #### To launch the program, write the following in the terminal window:
+  ---
+
   ${answers.commanLine}
+
+  ### License
+  ---
+
+  ### Contributing
+  ---
+
+  ### Test
+  ___
+
+  ### Questions 
+  ---
+  [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@:dale_foskey)](https://twitter.com/:dale_foskey)
   
   
   `;
