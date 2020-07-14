@@ -91,7 +91,7 @@ function generateHTML(answers) {
 
   ${answers.commanLine}
 
-  ### License
+  ### License  
   ---
 
   ### Contributing
@@ -100,9 +100,9 @@ function generateHTML(answers) {
   ### Test
   ___
 
-  ### Questions 
+  ### Questions  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jdalefoskey/readMeGen/index.js/graphs/commit-activity)
   ---
-  [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@:dale_foskey)](https://twitter.com/:dale_foskey)
+  [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@dale_foskey)](https://twitter.com/dale_foskey)
   
   
   `;
