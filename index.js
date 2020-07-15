@@ -96,13 +96,15 @@ function generateHTML(answers) {
 
   ### Contributing
   ---
+  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jdalefoskey/readMeGen/index.js/graphs/commit-activity)
 
   ### Test
   ___
 
-  ### Questions  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jdalefoskey/readMeGen/index.js/graphs/commit-activity)
+  ### Questions  
   ---
-  [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@dale_foskey)](https://twitter.com/dale_foskey)
+  
+  [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@dale_foskey)](https://twitter.com/@dale_foskey)
   
   
   `;
