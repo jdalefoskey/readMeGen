@@ -74,7 +74,14 @@ function generateHTML(answers) {
 
   ![Alt text](/${answers.video}?raw=true "Screen Shot")
   
-
+  ### Table of Contents
+  ---
+  - [Usage](###Usage-&-getting-Started)
+  - [Installation](###Installation)
+  - [License](###License)
+  - [Contributing](###Contributing)
+  - [Testing](###Test)
+  - [Contact](###Questions)
 
   ### Usage & getting Started
   ---
