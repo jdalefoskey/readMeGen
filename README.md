@@ -2,14 +2,14 @@
   ![Alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--7yVSltAE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://user-images.githubusercontent.com/9840435/59461914-cbc18380-8e22-11e9-8567-87b43da950ac.png?raw=true "readme")
   ---
   
-  # Project name 
+  # The Love for Tai Project 
   ---
 
   ## Description [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
   ---
-  > this is the description of my project
+  > This project tells you all about my love for Tai!!
 
-  ![Alt text](/location.png?raw=true "Screen Shot")
+  ![Alt text](/picture.jpg?raw=true "Screen Shot")
   
   ### Table of Contents
   ---
@@ -22,7 +22,7 @@
 
   ### Usage & getting Started
   ---
-  > you will run npm install -A
+  > first you go to command line and type in npm install A
 
 
   ### Installation
