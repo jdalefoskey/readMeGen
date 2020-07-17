@@ -112,7 +112,7 @@ function generateHTML(answers) {
   ### Questions  
   ---
   
-  [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@dale_foskey)](https://twitter.com/@dale_foskey)
+  [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@dale_foskey)]
   
   
   `;
