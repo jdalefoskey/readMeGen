@@ -30,7 +30,12 @@ function promptUser() {
     },
     {
       type: "input",
-      name: "commanLine", // Link to stored answer
+      name: "commandLine", // Link to stored answer
+      message: "Enter command to install dependencies",
+    },
+    {
+      type: "input",
+      name: "commandLine2", // Link to stored answer
       message: "Enter command to start project",
     },
 
@@ -53,6 +58,26 @@ function promptUser() {
       type: "input",
       name: "email", // Link to stored answer
       message: "What is your email ?",
+    },
+    {
+      type: "input",
+      name: "github", // Link to stored answer
+      message: "What is your github username?",
+    },
+    {
+      type: "input",
+      name: "license", // Link to stored answer
+      message: "Enter in any license information here",
+    },
+    {
+      type: "input",
+      name: "contribute", // Link to stored answer
+      message: "Enter information about Contributing to the success of this project",
+    },
+    {
+      type: "input",
+      name: "test", // Link to stored answer
+      message: "Testing information goes here",
     },
     
   ]);
@@ -91,28 +116,33 @@ function generateHTML(answers) {
 
   ### Installation
   ---
-  
-  ${answers.installation}
-  
-  #### To launch the program, write the following in the terminal window:
-  ---
-
-  ${answers.commanLine}
+  > To get started you need to istall dependancies, from root folder type the following in the terminal window:
+        >${answers.commandLine}
+    Then you can execute the program by typing the following in command line:
+        >${answers.commandLine2}
 
   ### License  
   ---
+  > ${answers.license}
 
   ### Contributing
   ---
-  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jdalefoskey/readMeGen/index.js/graphs/commit-activity)
+  ${answers.contribute}
+  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/${answers.github})
 
   ### Test
-  ___
+  ---
+  ${answers.test}
 
   ### Questions  
   ---
-  
-  [![Twitter](https://img.shields.io/twitter/follow/:twitterHandle.svg?style=social&label=@dale_foskey)]
+  Any questions about the project please feel free to reach out, I would love the opportunity to discuss it with you.
+
+  [Github Page:](https://github.com/${answers.github})
+   
+  [Twitter Page:](https://twitter.com/${answers.twitter})
+
+  [mailto](mailto:dalefoskey@icloud.com)
   
   
   `;
