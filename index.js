@@ -102,12 +102,12 @@ function generateHTML(answers) {
   
   ### Table of Contents
   ---
-  - [Usage](###Usage-&-getting-Started)
-  - [Installation](###Installation)
-  - [License](###License)
-  - [Contributing](###Contributing)
-  - [Testing](###Test)
-  - [Contact](###Questions)
+  - [Usage](#Usage-&-getting-Started)
+  - [Installation](#Installation)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Testing](#Test)
+  - [Contact](#Questions)
 
   ### Usage & getting Started
   ---
