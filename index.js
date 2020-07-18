@@ -121,7 +121,7 @@ function generateHTML(answers) {
     Then you can execute the program by typing the following in command line:
         >${answers.commandLine2}
 
-  ### License  
+  ### License  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
   ---
   > ${answers.license}
 

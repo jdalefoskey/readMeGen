@@ -41,3 +41,7 @@ node index.js
 ### Contributing
 
 Feel free to contact me with input, improvements, and suggestions at www.johnnydalefoskey.org
+
+### License
+
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
