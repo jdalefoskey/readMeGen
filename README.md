@@ -32,7 +32,9 @@
   ```
         >npm install -A
   ```
-    Afterwards to begin execute the program by typing the following in the command window, then answer the questions when prompted
+  
+  >  Afterwards to begin execute the program by typing the following in the command window, then answer the questions when prompted
+  
   ```      
         >node index.js
   ```
