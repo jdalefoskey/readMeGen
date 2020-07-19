@@ -23,7 +23,7 @@
   ---
   > This project is designed for personal non profit use. There are a couple of required dependencies but are easily obtained, Please see the video below for a step by step instructional guide.
 
-  [![Watch the video]](https://youtu.be/HiVNVHbM5Wg)
+  [![Watch the video]](./screenshot.png)(https://youtu.be/HiVNVHbM5Wg)
 
 
   ### Installation
