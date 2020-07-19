@@ -22,8 +22,10 @@
   ### Usage & getting Started
   ---
   > This project is designed for personal non profit use. There are a couple of required dependencies but are easily obtained, Please see the video below for a step by step instructional guide.
+  
+  ![Alt text](./screenshot.png?raw=true "Optional Title")
 
-  [![Watch the video]](./screenshot.png)(https://youtu.be/HiVNVHbM5Wg)
+  [![Watch the video]](https://youtu.be/HiVNVHbM5Wg)
 
 
   ### Installation
